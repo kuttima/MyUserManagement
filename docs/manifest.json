@@ -1,0 +1,572 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/GitRepos/MyUserManagement/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.BundleConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.BundleConfig.html",
+          "hash": "9L40qtmCz46kNGxeJ5b18A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Controllers.ErrorController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Controllers.ErrorController.html",
+          "hash": "rm1aO+QLpPn/YEhRIdsrzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Controllers.HomeController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Controllers.HomeController.html",
+          "hash": "WabP/KJoJjVPE59pr0kIKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Controllers.UserController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Controllers.UserController.html",
+          "hash": "xr1vrlKeWkc5vobMKpPXzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Controllers.html",
+          "hash": "mgVer410ElRYJKOb1DWLow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Data.DapperUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Data.DapperUnitOfWork.html",
+          "hash": "Td4YmKE1YeNTJxV0EUPRHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Data.Repositories.AccountRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Data.Repositories.AccountRepository.html",
+          "hash": "2l+FceXcEr6iOhGoQ/5prg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Data.Repositories.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Data.Repositories.UserRepository.html",
+          "hash": "iaYVHweubt5cMdjDj3oi6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Data.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Data.Repositories.html",
+          "hash": "eeElZUB9H1mYgRAqBklefg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Data.html",
+          "hash": "adIhovQOmPrxEzdTUt/Dnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.FilterConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.FilterConfig.html",
+          "hash": "LY9fQtyPwoo6JUDEuZe5zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Helpers.Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Helpers.Constant.html",
+          "hash": "PpAF6R3rGc5NN+cdoNj+lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Helpers.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Helpers.Extensions.html",
+          "hash": "PHKRx1Bt4zNNmhVGDt1Vzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Helpers.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Helpers.Helpers.html",
+          "hash": "5ziZ7vQbFMzKgp6O58kZfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Helpers.html",
+          "hash": "gaNo/9srUc18OU23ASprww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Infrastructure.DalSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Infrastructure.DalSession.html",
+          "hash": "LzBcxUycrbT1u0kmiijJ/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Infrastructure.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Infrastructure.IUnitOfWork.html",
+          "hash": "hG2fTac8gkJR6GZobMXPNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Infrastructure.UnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Infrastructure.UnitOfWork.html",
+          "hash": "e+fwdv9IOXAbJLSapjEaTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Infrastructure.html",
+          "hash": "YIx9PAF5QRGnBd71skt5sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.ActivateDeactivateViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.ActivateDeactivateViewModel.html",
+          "hash": "ErZgKIvGAnnMsTgXDGhieg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.BaseModel.html",
+          "hash": "roT4wC9iFPVMK6ixRGBRkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.CreateAssetViewerDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.CreateAssetViewerDTO.html",
+          "hash": "IC8Q7iTCs2SaG6euAEAptA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.CreateUserDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.CreateUserDTO.html",
+          "hash": "yUmy1hJXIjhx8KYI8ToUZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.CreateUserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.CreateUserViewModel.html",
+          "hash": "xeZNg/lUwaRzhHbn666p9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.LoginViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.LoginViewModel.html",
+          "hash": "Nq8yoh4VOqnCLHVzU9p1oQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.ResetPasswordViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.ResetPasswordViewModel.html",
+          "hash": "WcFn5dolWJ96ACSA/YuokQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.UserAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.UserAccount.html",
+          "hash": "lJGYzq8wJ8q/ySj34LErDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Models.html",
+          "hash": "pmkUrHwu1W+mesniFe0hgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.MvcApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.MvcApplication.html",
+          "hash": "iU97hYjbio6QiY2RmGEBaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.RouteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.RouteConfig.html",
+          "hash": "BeM86zyRJGi5BMyxJOPSpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Services.AccountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Services.AccountService.html",
+          "hash": "rqmPZlnSgR+s9KL6IWjURw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Services.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Services.UserService.html",
+          "hash": "G48Mizi+N/wuIrXdSDNNxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.Services.html",
+          "hash": "qmXit8rLsj9saAVI0epWAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AQuIP.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AQuIP.Admin.html",
+          "hash": "ufdEmEgwBRstBY0I08ioHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Logging.Core.LogDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Logging.Core.LogDetail.html",
+          "hash": "zqWThxJIpPCoVozunxpN3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Logging.Core.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Logging.Core.Logger.html",
+          "hash": "FpD/0D2hiUi5hGJHNJBF+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Logging.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Logging.Core.html",
+          "hash": "wsdsDcVy4STPxr5PpezqHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "fDhOSloUecYBel/nhUs1Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "04Xi+nkuJVExU/+VYafKdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "sfVkE3Dio889nM43iOoefw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "S/qzxdRyhRhbNVOBe2H48w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 37,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

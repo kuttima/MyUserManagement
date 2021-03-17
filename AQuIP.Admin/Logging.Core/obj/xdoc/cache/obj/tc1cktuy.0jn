@@ -1,0 +1,1715 @@
+id: Logging.Core
+language: CSharp
+name:
+  Default: Logging.Core
+qualifiedName:
+  Default: Logging.Core
+type: Assembly
+modifiers: {}
+items:
+- id: Logging.Core
+  commentId: N:Logging.Core
+  language: CSharp
+  name:
+    CSharp: Logging.Core
+    VB: Logging.Core
+  nameWithType:
+    CSharp: Logging.Core
+    VB: Logging.Core
+  qualifiedName:
+    CSharp: Logging.Core
+    VB: Logging.Core
+  type: Namespace
+  assemblies:
+  - Logging.Core
+  modifiers: {}
+  items:
+  - id: Logging.Core.LogDetail
+    commentId: T:Logging.Core.LogDetail
+    language: CSharp
+    name:
+      CSharp: LogDetail
+      VB: LogDetail
+    nameWithType:
+      CSharp: LogDetail
+      VB: LogDetail
+    qualifiedName:
+      CSharp: Logging.Core.LogDetail
+      VB: Logging.Core.LogDetail
+    type: Class
+    assemblies:
+    - Logging.Core
+    namespace: Logging.Core
+    source:
+      remote:
+        path: AQuIP.Admin/Logging.Core/LogDetail.cs
+        branch: master
+        repo: https://github.com/kuttima/MyUserManagement.git
+      id: LogDetail
+      path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class LogDetail
+        VB: Public Class LogDetail
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Logging.Core.LogDetail.#ctor
+      commentId: M:Logging.Core.LogDetail.#ctor
+      language: CSharp
+      name:
+        CSharp: LogDetail()
+        VB: LogDetail()
+      nameWithType:
+        CSharp: LogDetail.LogDetail()
+        VB: LogDetail.LogDetail()
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.LogDetail()
+        VB: Logging.Core.LogDetail.LogDetail()
+      type: Constructor
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: .ctor
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public LogDetail()
+          VB: Public Sub New
+      overload: Logging.Core.LogDetail.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Timestamp
+      commentId: P:Logging.Core.LogDetail.Timestamp
+      language: CSharp
+      name:
+        CSharp: Timestamp
+        VB: Timestamp
+      nameWithType:
+        CSharp: LogDetail.Timestamp
+        VB: LogDetail.Timestamp
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Timestamp
+        VB: Logging.Core.LogDetail.Timestamp
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Timestamp
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public DateTime Timestamp { get; }
+          VB: Public ReadOnly Property Timestamp As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: Logging.Core.LogDetail.Timestamp*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Logging.Core.LogDetail.Message
+      commentId: P:Logging.Core.LogDetail.Message
+      language: CSharp
+      name:
+        CSharp: Message
+        VB: Message
+      nameWithType:
+        CSharp: LogDetail.Message
+        VB: LogDetail.Message
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Message
+        VB: Logging.Core.LogDetail.Message
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Message
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public string Message { get; set; }
+          VB: Public Property Message As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.Message*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Product
+      commentId: P:Logging.Core.LogDetail.Product
+      language: CSharp
+      name:
+        CSharp: Product
+        VB: Product
+      nameWithType:
+        CSharp: LogDetail.Product
+        VB: LogDetail.Product
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Product
+        VB: Logging.Core.LogDetail.Product
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Product
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 19
+      syntax:
+        content:
+          CSharp: public string Product { get; set; }
+          VB: Public Property Product As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.Product*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Layer
+      commentId: P:Logging.Core.LogDetail.Layer
+      language: CSharp
+      name:
+        CSharp: Layer
+        VB: Layer
+      nameWithType:
+        CSharp: LogDetail.Layer
+        VB: LogDetail.Layer
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Layer
+        VB: Logging.Core.LogDetail.Layer
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Layer
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public string Layer { get; set; }
+          VB: Public Property Layer As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.Layer*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Location
+      commentId: P:Logging.Core.LogDetail.Location
+      language: CSharp
+      name:
+        CSharp: Location
+        VB: Location
+      nameWithType:
+        CSharp: LogDetail.Location
+        VB: LogDetail.Location
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Location
+        VB: Logging.Core.LogDetail.Location
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Location
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 21
+      syntax:
+        content:
+          CSharp: public string Location { get; set; }
+          VB: Public Property Location As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.Location*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Hostname
+      commentId: P:Logging.Core.LogDetail.Hostname
+      language: CSharp
+      name:
+        CSharp: Hostname
+        VB: Hostname
+      nameWithType:
+        CSharp: LogDetail.Hostname
+        VB: LogDetail.Hostname
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Hostname
+        VB: Logging.Core.LogDetail.Hostname
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Hostname
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public string Hostname { get; set; }
+          VB: Public Property Hostname As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.Hostname*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.UserId
+      commentId: P:Logging.Core.LogDetail.UserId
+      language: CSharp
+      name:
+        CSharp: UserId
+        VB: UserId
+      nameWithType:
+        CSharp: LogDetail.UserId
+        VB: LogDetail.UserId
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.UserId
+        VB: Logging.Core.LogDetail.UserId
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: UserId
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 24
+      syntax:
+        content:
+          CSharp: public string UserId { get; set; }
+          VB: Public Property UserId As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.UserId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.UserName
+      commentId: P:Logging.Core.LogDetail.UserName
+      language: CSharp
+      name:
+        CSharp: UserName
+        VB: UserName
+      nameWithType:
+        CSharp: LogDetail.UserName
+        VB: LogDetail.UserName
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.UserName
+        VB: Logging.Core.LogDetail.UserName
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: UserName
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 25
+      syntax:
+        content:
+          CSharp: public string UserName { get; set; }
+          VB: Public Property UserName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.UserName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.CustomerId
+      commentId: P:Logging.Core.LogDetail.CustomerId
+      language: CSharp
+      name:
+        CSharp: CustomerId
+        VB: CustomerId
+      nameWithType:
+        CSharp: LogDetail.CustomerId
+        VB: LogDetail.CustomerId
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.CustomerId
+        VB: Logging.Core.LogDetail.CustomerId
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: CustomerId
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 26
+      syntax:
+        content:
+          CSharp: public int CustomerId { get; set; }
+          VB: Public Property CustomerId As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Logging.Core.LogDetail.CustomerId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.CustomerName
+      commentId: P:Logging.Core.LogDetail.CustomerName
+      language: CSharp
+      name:
+        CSharp: CustomerName
+        VB: CustomerName
+      nameWithType:
+        CSharp: LogDetail.CustomerName
+        VB: LogDetail.CustomerName
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.CustomerName
+        VB: Logging.Core.LogDetail.CustomerName
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: CustomerName
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 27
+      syntax:
+        content:
+          CSharp: public string CustomerName { get; set; }
+          VB: Public Property CustomerName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.CustomerName*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.ElapsedMilliseconds
+      commentId: P:Logging.Core.LogDetail.ElapsedMilliseconds
+      language: CSharp
+      name:
+        CSharp: ElapsedMilliseconds
+        VB: ElapsedMilliseconds
+      nameWithType:
+        CSharp: LogDetail.ElapsedMilliseconds
+        VB: LogDetail.ElapsedMilliseconds
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.ElapsedMilliseconds
+        VB: Logging.Core.LogDetail.ElapsedMilliseconds
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: ElapsedMilliseconds
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 29
+      syntax:
+        content:
+          CSharp: public long? ElapsedMilliseconds { get; set; }
+          VB: Public Property ElapsedMilliseconds As Long?
+        parameters: []
+        return:
+          type: System.Nullable{System.Int64}
+      overload: Logging.Core.LogDetail.ElapsedMilliseconds*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.Exception
+      commentId: P:Logging.Core.LogDetail.Exception
+      language: CSharp
+      name:
+        CSharp: Exception
+        VB: Exception
+      nameWithType:
+        CSharp: LogDetail.Exception
+        VB: LogDetail.Exception
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.Exception
+        VB: Logging.Core.LogDetail.Exception
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: Exception
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 30
+      syntax:
+        content:
+          CSharp: public Exception Exception { get; set; }
+          VB: Public Property Exception As Exception
+        parameters: []
+        return:
+          type: System.Exception
+      overload: Logging.Core.LogDetail.Exception*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.CorrelationId
+      commentId: P:Logging.Core.LogDetail.CorrelationId
+      language: CSharp
+      name:
+        CSharp: CorrelationId
+        VB: CorrelationId
+      nameWithType:
+        CSharp: LogDetail.CorrelationId
+        VB: LogDetail.CorrelationId
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.CorrelationId
+        VB: Logging.Core.LogDetail.CorrelationId
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: CorrelationId
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 31
+      syntax:
+        content:
+          CSharp: public string CorrelationId { get; set; }
+          VB: Public Property CorrelationId As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Logging.Core.LogDetail.CorrelationId*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Logging.Core.LogDetail.AdditionalInfo
+      commentId: P:Logging.Core.LogDetail.AdditionalInfo
+      language: CSharp
+      name:
+        CSharp: AdditionalInfo
+        VB: AdditionalInfo
+      nameWithType:
+        CSharp: LogDetail.AdditionalInfo
+        VB: LogDetail.AdditionalInfo
+      qualifiedName:
+        CSharp: Logging.Core.LogDetail.AdditionalInfo
+        VB: Logging.Core.LogDetail.AdditionalInfo
+      type: Property
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/LogDetail.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: AdditionalInfo
+        path: ../AQuIP.Admin/Logging.Core/LogDetail.cs
+        startLine: 32
+      syntax:
+        content:
+          CSharp: public Dictionary<string, object> AdditionalInfo { get; set; }
+          VB: Public Property AdditionalInfo As Dictionary(Of String, Object)
+        parameters: []
+        return:
+          type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      overload: Logging.Core.LogDetail.AdditionalInfo*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Logging.Core.Logger
+    commentId: T:Logging.Core.Logger
+    language: CSharp
+    name:
+      CSharp: Logger
+      VB: Logger
+    nameWithType:
+      CSharp: Logger
+      VB: Logger
+    qualifiedName:
+      CSharp: Logging.Core.Logger
+      VB: Logging.Core.Logger
+    type: Class
+    assemblies:
+    - Logging.Core
+    namespace: Logging.Core
+    source:
+      remote:
+        path: AQuIP.Admin/Logging.Core/Logger.cs
+        branch: master
+        repo: https://github.com/kuttima/MyUserManagement.git
+      id: Logger
+      path: ../AQuIP.Admin/Logging.Core/Logger.cs
+      startLine: 12
+    syntax:
+      content:
+        CSharp: public static class Logger
+        VB: Public Module Logger
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: Logging.Core.Logger.WritePerf(Logging.Core.LogDetail)
+      commentId: M:Logging.Core.Logger.WritePerf(Logging.Core.LogDetail)
+      language: CSharp
+      name:
+        CSharp: WritePerf(LogDetail)
+        VB: WritePerf(LogDetail)
+      nameWithType:
+        CSharp: Logger.WritePerf(LogDetail)
+        VB: Logger.WritePerf(LogDetail)
+      qualifiedName:
+        CSharp: Logging.Core.Logger.WritePerf(Logging.Core.LogDetail)
+        VB: Logging.Core.Logger.WritePerf(Logging.Core.LogDetail)
+      type: Method
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/Logger.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: WritePerf
+        path: ../AQuIP.Admin/Logging.Core/Logger.cs
+        startLine: 38
+      syntax:
+        content:
+          CSharp: public static void WritePerf(LogDetail infoToLog)
+          VB: Public Shared Sub WritePerf(infoToLog As LogDetail)
+        parameters:
+        - id: infoToLog
+          type: Logging.Core.LogDetail
+      overload: Logging.Core.Logger.WritePerf*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Logging.Core.Logger.WriteUsage(Logging.Core.LogDetail)
+      commentId: M:Logging.Core.Logger.WriteUsage(Logging.Core.LogDetail)
+      language: CSharp
+      name:
+        CSharp: WriteUsage(LogDetail)
+        VB: WriteUsage(LogDetail)
+      nameWithType:
+        CSharp: Logger.WriteUsage(LogDetail)
+        VB: Logger.WriteUsage(LogDetail)
+      qualifiedName:
+        CSharp: Logging.Core.Logger.WriteUsage(Logging.Core.LogDetail)
+        VB: Logging.Core.Logger.WriteUsage(Logging.Core.LogDetail)
+      type: Method
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/Logger.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: WriteUsage
+        path: ../AQuIP.Admin/Logging.Core/Logger.cs
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public static void WriteUsage(LogDetail infoToLog)
+          VB: Public Shared Sub WriteUsage(infoToLog As LogDetail)
+        parameters:
+        - id: infoToLog
+          type: Logging.Core.LogDetail
+      overload: Logging.Core.Logger.WriteUsage*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Logging.Core.Logger.WriteError(Logging.Core.LogDetail)
+      commentId: M:Logging.Core.Logger.WriteError(Logging.Core.LogDetail)
+      language: CSharp
+      name:
+        CSharp: WriteError(LogDetail)
+        VB: WriteError(LogDetail)
+      nameWithType:
+        CSharp: Logger.WriteError(LogDetail)
+        VB: Logger.WriteError(LogDetail)
+      qualifiedName:
+        CSharp: Logging.Core.Logger.WriteError(Logging.Core.LogDetail)
+        VB: Logging.Core.Logger.WriteError(Logging.Core.LogDetail)
+      type: Method
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/Logger.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: WriteError
+        path: ../AQuIP.Admin/Logging.Core/Logger.cs
+        startLine: 48
+      syntax:
+        content:
+          CSharp: public static void WriteError(LogDetail infoToLog)
+          VB: Public Shared Sub WriteError(infoToLog As LogDetail)
+        parameters:
+        - id: infoToLog
+          type: Logging.Core.LogDetail
+      overload: Logging.Core.Logger.WriteError*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Logging.Core.Logger.WriteDiagnostic(Logging.Core.LogDetail)
+      commentId: M:Logging.Core.Logger.WriteDiagnostic(Logging.Core.LogDetail)
+      language: CSharp
+      name:
+        CSharp: WriteDiagnostic(LogDetail)
+        VB: WriteDiagnostic(LogDetail)
+      nameWithType:
+        CSharp: Logger.WriteDiagnostic(LogDetail)
+        VB: Logger.WriteDiagnostic(LogDetail)
+      qualifiedName:
+        CSharp: Logging.Core.Logger.WriteDiagnostic(Logging.Core.LogDetail)
+        VB: Logging.Core.Logger.WriteDiagnostic(Logging.Core.LogDetail)
+      type: Method
+      assemblies:
+      - Logging.Core
+      namespace: Logging.Core
+      source:
+        remote:
+          path: AQuIP.Admin/Logging.Core/Logger.cs
+          branch: master
+          repo: https://github.com/kuttima/MyUserManagement.git
+        id: WriteDiagnostic
+        path: ../AQuIP.Admin/Logging.Core/Logger.cs
+        startLine: 54
+      syntax:
+        content:
+          CSharp: public static void WriteDiagnostic(LogDetail infoToLog)
+          VB: Public Shared Sub WriteDiagnostic(infoToLog As LogDetail)
+        parameters:
+        - id: infoToLog
+          type: Logging.Core.LogDetail
+      overload: Logging.Core.Logger.WriteDiagnostic*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  Logging.Core.LogDetail.#ctor*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.#ctor*
+        name: LogDetail
+        nameWithType: LogDetail.LogDetail
+        qualifiedName: Logging.Core.LogDetail.LogDetail
+      VB:
+      - id: Logging.Core.LogDetail.#ctor*
+        name: LogDetail
+        nameWithType: LogDetail.LogDetail
+        qualifiedName: Logging.Core.LogDetail.LogDetail
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.#ctor
+  System.DateTime:
+    name:
+      CSharp:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      VB:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTime
+  Logging.Core.LogDetail.Timestamp*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Timestamp*
+        name: Timestamp
+        nameWithType: LogDetail.Timestamp
+        qualifiedName: Logging.Core.LogDetail.Timestamp
+      VB:
+      - id: Logging.Core.LogDetail.Timestamp*
+        name: Timestamp
+        nameWithType: LogDetail.Timestamp
+        qualifiedName: Logging.Core.LogDetail.Timestamp
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Timestamp
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Logging.Core.LogDetail.Message*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Message*
+        name: Message
+        nameWithType: LogDetail.Message
+        qualifiedName: Logging.Core.LogDetail.Message
+      VB:
+      - id: Logging.Core.LogDetail.Message*
+        name: Message
+        nameWithType: LogDetail.Message
+        qualifiedName: Logging.Core.LogDetail.Message
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Message
+  Logging.Core.LogDetail.Product*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Product*
+        name: Product
+        nameWithType: LogDetail.Product
+        qualifiedName: Logging.Core.LogDetail.Product
+      VB:
+      - id: Logging.Core.LogDetail.Product*
+        name: Product
+        nameWithType: LogDetail.Product
+        qualifiedName: Logging.Core.LogDetail.Product
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Product
+  Logging.Core.LogDetail.Layer*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Layer*
+        name: Layer
+        nameWithType: LogDetail.Layer
+        qualifiedName: Logging.Core.LogDetail.Layer
+      VB:
+      - id: Logging.Core.LogDetail.Layer*
+        name: Layer
+        nameWithType: LogDetail.Layer
+        qualifiedName: Logging.Core.LogDetail.Layer
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Layer
+  Logging.Core.LogDetail.Location*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Location*
+        name: Location
+        nameWithType: LogDetail.Location
+        qualifiedName: Logging.Core.LogDetail.Location
+      VB:
+      - id: Logging.Core.LogDetail.Location*
+        name: Location
+        nameWithType: LogDetail.Location
+        qualifiedName: Logging.Core.LogDetail.Location
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Location
+  Logging.Core.LogDetail.Hostname*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Hostname*
+        name: Hostname
+        nameWithType: LogDetail.Hostname
+        qualifiedName: Logging.Core.LogDetail.Hostname
+      VB:
+      - id: Logging.Core.LogDetail.Hostname*
+        name: Hostname
+        nameWithType: LogDetail.Hostname
+        qualifiedName: Logging.Core.LogDetail.Hostname
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Hostname
+  Logging.Core.LogDetail.UserId*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.UserId*
+        name: UserId
+        nameWithType: LogDetail.UserId
+        qualifiedName: Logging.Core.LogDetail.UserId
+      VB:
+      - id: Logging.Core.LogDetail.UserId*
+        name: UserId
+        nameWithType: LogDetail.UserId
+        qualifiedName: Logging.Core.LogDetail.UserId
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.UserId
+  Logging.Core.LogDetail.UserName*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.UserName*
+        name: UserName
+        nameWithType: LogDetail.UserName
+        qualifiedName: Logging.Core.LogDetail.UserName
+      VB:
+      - id: Logging.Core.LogDetail.UserName*
+        name: UserName
+        nameWithType: LogDetail.UserName
+        qualifiedName: Logging.Core.LogDetail.UserName
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.UserName
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Logging.Core.LogDetail.CustomerId*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.CustomerId*
+        name: CustomerId
+        nameWithType: LogDetail.CustomerId
+        qualifiedName: Logging.Core.LogDetail.CustomerId
+      VB:
+      - id: Logging.Core.LogDetail.CustomerId*
+        name: CustomerId
+        nameWithType: LogDetail.CustomerId
+        qualifiedName: Logging.Core.LogDetail.CustomerId
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.CustomerId
+  Logging.Core.LogDetail.CustomerName*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.CustomerName*
+        name: CustomerName
+        nameWithType: LogDetail.CustomerName
+        qualifiedName: Logging.Core.LogDetail.CustomerName
+      VB:
+      - id: Logging.Core.LogDetail.CustomerName*
+        name: CustomerName
+        nameWithType: LogDetail.CustomerName
+        qualifiedName: Logging.Core.LogDetail.CustomerName
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.CustomerName
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Nullable`1
+  System.Nullable{System.Int64}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Int64
+        name: Int64
+        nameWithType: Int64
+        qualifiedName: System.Int64
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Int64
+        name: Int64
+        nameWithType: Int64
+        qualifiedName: System.Int64
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    parent: System
+    commentId: T:System.Nullable{System.Int64}
+  Logging.Core.LogDetail.ElapsedMilliseconds*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.ElapsedMilliseconds*
+        name: ElapsedMilliseconds
+        nameWithType: LogDetail.ElapsedMilliseconds
+        qualifiedName: Logging.Core.LogDetail.ElapsedMilliseconds
+      VB:
+      - id: Logging.Core.LogDetail.ElapsedMilliseconds*
+        name: ElapsedMilliseconds
+        nameWithType: LogDetail.ElapsedMilliseconds
+        qualifiedName: Logging.Core.LogDetail.ElapsedMilliseconds
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.ElapsedMilliseconds
+  System.Exception:
+    name:
+      CSharp:
+      - id: System.Exception
+        name: Exception
+        nameWithType: Exception
+        qualifiedName: System.Exception
+        isExternal: true
+      VB:
+      - id: System.Exception
+        name: Exception
+        nameWithType: Exception
+        qualifiedName: System.Exception
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Exception
+  Logging.Core.LogDetail.Exception*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.Exception*
+        name: Exception
+        nameWithType: LogDetail.Exception
+        qualifiedName: Logging.Core.LogDetail.Exception
+      VB:
+      - id: Logging.Core.LogDetail.Exception*
+        name: Exception
+        nameWithType: LogDetail.Exception
+        qualifiedName: Logging.Core.LogDetail.Exception
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.Exception
+  Logging.Core.LogDetail.CorrelationId*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.CorrelationId*
+        name: CorrelationId
+        nameWithType: LogDetail.CorrelationId
+        qualifiedName: Logging.Core.LogDetail.CorrelationId
+      VB:
+      - id: Logging.Core.LogDetail.CorrelationId*
+        name: CorrelationId
+        nameWithType: LogDetail.CorrelationId
+        qualifiedName: Logging.Core.LogDetail.CorrelationId
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.CorrelationId
+  System.Collections.Generic.Dictionary`2:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.Dictionary`2
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.Dictionary{System.String,System.Object}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.Dictionary`2
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  Logging.Core.LogDetail.AdditionalInfo*:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail.AdditionalInfo*
+        name: AdditionalInfo
+        nameWithType: LogDetail.AdditionalInfo
+        qualifiedName: Logging.Core.LogDetail.AdditionalInfo
+      VB:
+      - id: Logging.Core.LogDetail.AdditionalInfo*
+        name: AdditionalInfo
+        nameWithType: LogDetail.AdditionalInfo
+        qualifiedName: Logging.Core.LogDetail.AdditionalInfo
+    isDefinition: true
+    commentId: Overload:Logging.Core.LogDetail.AdditionalInfo
+  Logging.Core.LogDetail:
+    name:
+      CSharp:
+      - id: Logging.Core.LogDetail
+        name: LogDetail
+        nameWithType: LogDetail
+        qualifiedName: Logging.Core.LogDetail
+      VB:
+      - id: Logging.Core.LogDetail
+        name: LogDetail
+        nameWithType: LogDetail
+        qualifiedName: Logging.Core.LogDetail
+    isDefinition: true
+    parent: Logging.Core
+    commentId: T:Logging.Core.LogDetail
+  Logging.Core:
+    name:
+      CSharp:
+      - name: Logging.Core
+        nameWithType: Logging.Core
+        qualifiedName: Logging.Core
+      VB:
+      - name: Logging.Core
+        nameWithType: Logging.Core
+        qualifiedName: Logging.Core
+    isDefinition: true
+    commentId: N:Logging.Core
+  Logging.Core.Logger.WritePerf*:
+    name:
+      CSharp:
+      - id: Logging.Core.Logger.WritePerf*
+        name: WritePerf
+        nameWithType: Logger.WritePerf
+        qualifiedName: Logging.Core.Logger.WritePerf
+      VB:
+      - id: Logging.Core.Logger.WritePerf*
+        name: WritePerf
+        nameWithType: Logger.WritePerf
+        qualifiedName: Logging.Core.Logger.WritePerf
+    isDefinition: true
+    commentId: Overload:Logging.Core.Logger.WritePerf
+  Logging.Core.Logger.WriteUsage*:
+    name:
+      CSharp:
+      - id: Logging.Core.Logger.WriteUsage*
+        name: WriteUsage
+        nameWithType: Logger.WriteUsage
+        qualifiedName: Logging.Core.Logger.WriteUsage
+      VB:
+      - id: Logging.Core.Logger.WriteUsage*
+        name: WriteUsage
+        nameWithType: Logger.WriteUsage
+        qualifiedName: Logging.Core.Logger.WriteUsage
+    isDefinition: true
+    commentId: Overload:Logging.Core.Logger.WriteUsage
+  Logging.Core.Logger.WriteError*:
+    name:
+      CSharp:
+      - id: Logging.Core.Logger.WriteError*
+        name: WriteError
+        nameWithType: Logger.WriteError
+        qualifiedName: Logging.Core.Logger.WriteError
+      VB:
+      - id: Logging.Core.Logger.WriteError*
+        name: WriteError
+        nameWithType: Logger.WriteError
+        qualifiedName: Logging.Core.Logger.WriteError
+    isDefinition: true
+    commentId: Overload:Logging.Core.Logger.WriteError
+  Logging.Core.Logger.WriteDiagnostic*:
+    name:
+      CSharp:
+      - id: Logging.Core.Logger.WriteDiagnostic*
+        name: WriteDiagnostic
+        nameWithType: Logger.WriteDiagnostic
+        qualifiedName: Logging.Core.Logger.WriteDiagnostic
+      VB:
+      - id: Logging.Core.Logger.WriteDiagnostic*
+        name: WriteDiagnostic
+        nameWithType: Logger.WriteDiagnostic
+        qualifiedName: Logging.Core.Logger.WriteDiagnostic
+    isDefinition: true
+    commentId: Overload:Logging.Core.Logger.WriteDiagnostic
+  Logging.Core.Logger:
+    name:
+      CSharp:
+      - id: Logging.Core.Logger
+        name: Logger
+        nameWithType: Logger
+        qualifiedName: Logging.Core.Logger
+      VB:
+      - id: Logging.Core.Logger
+        name: Logger
+        nameWithType: Logger
+        qualifiedName: Logging.Core.Logger
+    isDefinition: true
+    commentId: T:Logging.Core.Logger

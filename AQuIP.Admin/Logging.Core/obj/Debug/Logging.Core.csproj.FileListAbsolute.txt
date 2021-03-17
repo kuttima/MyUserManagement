@@ -20,3 +20,16 @@ C:\Users\ssambathkumar\AQuIPAdmin\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.Sin
 C:\Users\ssambathkumar\AQuIPAdmin\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.csprojResolveAssemblyReference.cache
 C:\Users\ssambathkumar\AQuIPAdmin\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.dll
 C:\Users\ssambathkumar\AQuIPAdmin\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.pdb
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Logging.Core.dll
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Logging.Core.pdb
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.dll
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.Settings.AppSettings.dll
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.Sinks.File.dll
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.pdb
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.xml
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\bin\Debug\Serilog.Sinks.File.xml
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.csprojAssemblyReference.cache
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.csproj.CoreCompileInputs.cache
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.csproj.CopyComplete
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.dll
+C:\GitRepos\MyUserManagement\AQuIP.Admin\Logging.Core\obj\Debug\Logging.Core.pdb
